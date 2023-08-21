@@ -1,8 +1,9 @@
-// import React from "react";
+/* eslint-disable no-unused-vars */
+import React from "react";
 import { useState } from "react";
 import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
-import bmichart from "../../../assets/bmi.jpg";
+import bmichart from "../../../assets/bmi_transparent.png";
 
 const Membership = () => {
   const [weight, setWeight] = useState("");
@@ -127,10 +128,10 @@ const Membership = () => {
           </p>
         </section>
         {/* Other section */}
-        <div className="py-8 px-2 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12">
+        <div className="py-8 px-2 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12 ">
           <img
             src={bmichart}
-            className="rounded-lg shadow-lg w-full lg:block hidden"
+            className="rounded-lg w-full lg:block hidden"
             alt="bmi chart"
           />
         </div>
