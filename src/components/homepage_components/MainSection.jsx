@@ -280,14 +280,10 @@ const MainSection = () => {
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eum esse incidunt maxime dolor, eaque ratione autem quae.
-                      Perferendis aut excepturi quas deserunt autem magnam
-                      provident.
                     </p>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eum esse incidunt maxime dolor, eaque ratione autem quae.
-                      Perferendis aut excepturi quas deserunt autem magnam
-                      provident.
                     </p>
                   </div>
                 </div>
