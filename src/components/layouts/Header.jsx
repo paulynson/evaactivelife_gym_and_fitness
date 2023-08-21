@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileView from "../../features/MobileView";
 
@@ -8,7 +8,12 @@ const Header = () => {
   return (
     <header className="py-8">
       <nav className="flex justify-between items-center">
-        <p className="uppercase font-bold">EvaActiveLife Gym & Fitness</p>
+        <Link
+          to="/"
+          className=" font-bold hover:text-green-600 hover:scale-105"
+        >
+          EvaActiveLife Gym & Fitness
+        </Link>
         <section>
           <div className="lg:hidden block">
             <HiMenuAlt3

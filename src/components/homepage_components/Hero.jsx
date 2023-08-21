@@ -3,7 +3,7 @@ import { GoPlay } from "react-icons/go";
 
 const HeroSection = () => {
   return (
-    <section className="my-12 grid grid-cols-12 gap-4 items-center">
+    <section className="my-12 grid grid-cols-12 gap-4 items-center ">
       <div className="lg:col-span-6 col-span-12">
         <h1 className="lg:text-5xl text-[2.5rem] font-bold leading-normal">
           Attain a Fit Physique Through Optimal Exercise Routines
