@@ -7,6 +7,7 @@ import Program from "./features/pages/program/Program";
 import Shop from "./features/pages/shop/Shop";
 import Testimonials from "./features/pages/testimonials/Testimonials";
 import Membership from "./features/pages/membership/Membership";
+import NotFound from "./features/pages/notfound/NotFound";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/membership" element={<Membership />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
