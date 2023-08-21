@@ -100,7 +100,7 @@ const Membership = () => {
             <div className="mb-2">
               <label className="block font-medium">Weight (kg):</label>
               <input
-                className="border rounded px-2 py-1 w-20"
+                className="border rounded px-2 py-1 w-full"
                 type="number"
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
@@ -109,7 +109,7 @@ const Membership = () => {
             <div className="mb-2">
               <label className="block font-medium">Height (cm):</label>
               <input
-                className="border rounded px-2 py-1 w-20"
+                className="border rounded px-2 py-1 w-full"
                 type="number"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
