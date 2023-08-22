@@ -3,10 +3,10 @@ import MainSection from "../../../components/homepage_components/MainSection";
 
 const HomePage = () => {
   return (
-    <section>
+    <main>
       <HeroSection />
       <MainSection />
-    </section>
+    </main>
   );
 };
 
