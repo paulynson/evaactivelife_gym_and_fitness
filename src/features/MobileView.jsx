@@ -81,9 +81,9 @@ const MobileView = ({ navbar, setNavbar }) => {
             Sign Up
           </button>
         </div>
-        <div className="absolute top-4 right-0 p-4  cursor-pointer">
+        <div className="absolute top-4 right-3 p-4 cursor-pointer">
           <AiOutlineCloseCircle
-            className="text-white text-3xl hover:text-green-600"
+            className="text-white text-3xl hover:text-green-600 hover:animate-spin"
             onClick={() => setNavbar(!navbar)}
           />
         </div>
