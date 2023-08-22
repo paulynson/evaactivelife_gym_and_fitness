@@ -10,7 +10,9 @@ const MobileView = ({ navbar, setNavbar }) => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+              isActive
+                ? "text-green-400 font-bold text-3xl"
+                : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -20,7 +22,9 @@ const MobileView = ({ navbar, setNavbar }) => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+              isActive
+                ? "text-green-400 font-bold text-3xl"
+                : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -30,7 +34,9 @@ const MobileView = ({ navbar, setNavbar }) => {
           <NavLink
             to="/program"
             className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+              isActive
+                ? "text-green-400 font-bold text-3xl"
+                : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -40,7 +46,9 @@ const MobileView = ({ navbar, setNavbar }) => {
           <NavLink
             to="/membership"
             className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+              isActive
+                ? "text-green-400 font-bold text-3xl"
+                : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -50,7 +58,9 @@ const MobileView = ({ navbar, setNavbar }) => {
           <NavLink
             to="/shop"
             className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+              isActive
+                ? "text-green-400 font-bold text-3xl"
+                : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -59,8 +69,8 @@ const MobileView = ({ navbar, setNavbar }) => {
           </NavLink>
           {/* <NavLink
             to="/testimonials"
-            className={({ isActive }) =>
-              isActive ? "text-green-400 font-bold" : "text-white"
+            className={({ isActive }) = text-3xl>
+              isActive ? "text-green-400 font-bold" : "text-white hover:text-green-400 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >

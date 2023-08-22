@@ -26,7 +26,9 @@ const Header = () => {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive
+                    ? "text-green-400 font-bold"
+                    : "text-white hover:text-green-400"
                 }
               >
                 {" "}
@@ -35,7 +37,9 @@ const Header = () => {
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive
+                    ? "text-green-400 font-bold"
+                    : "text-white hover:text-green-400"
                 }
               >
                 {" "}
@@ -44,7 +48,9 @@ const Header = () => {
               <NavLink
                 to="/program"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive
+                    ? "text-green-400 font-bold"
+                    : "text-white hover:text-green-400"
                 }
               >
                 {" "}
@@ -53,7 +59,9 @@ const Header = () => {
               <NavLink
                 to="/membership"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive
+                    ? "text-green-400 font-bold"
+                    : "text-white hover:text-green-400"
                 }
               >
                 {" "}
@@ -62,7 +70,9 @@ const Header = () => {
               <NavLink
                 to="/shop"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive
+                    ? "text-green-400 font-bold"
+                    : "text-white hover:text-green-400"
                 }
               >
                 {" "}
@@ -71,7 +81,7 @@ const Header = () => {
               {/* <NavLink
                 to="/testimonials"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white"
+                  isActive ? "text-green-400 font-bold" : "text-white hover:text-green-400"
                 }
               >
                 {" "}
