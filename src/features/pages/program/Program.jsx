@@ -24,8 +24,8 @@ const Program = () => {
         </p>
         <section className="grid grid-cols-12 gap-4 items-center justify-center py-6">
           {/* one section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Personal Training:
             </summary>
             <article>
@@ -40,8 +40,8 @@ const Program = () => {
           </details>
 
           {/* third section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Functional Fitness:{" "}
             </summary>
             <article>
@@ -55,8 +55,8 @@ const Program = () => {
             </article>
           </details>
           {/* Fourth section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Weight Lifting:{" "}
             </summary>
             <article>
@@ -70,8 +70,8 @@ const Program = () => {
             </article>
           </details>
           {/* fifth section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Circuit Training:{" "}
             </summary>
             <article>
@@ -85,8 +85,8 @@ const Program = () => {
             </article>
           </details>
           {/* sixth section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               CrossFit:{" "}
             </summary>
             <article>
@@ -100,8 +100,8 @@ const Program = () => {
             </article>
           </details>
           {/* seventh section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Functional Wellness:{" "}
             </summary>
             <article>
@@ -115,8 +115,8 @@ const Program = () => {
             </article>
           </details>
           {/* eight section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Youth Fitness:{" "}
             </summary>
             <article>
@@ -126,8 +126,8 @@ const Program = () => {
             </article>
           </details>
           {/* seventh section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Specialized Classes:{" "}
             </summary>
             <article>
@@ -141,8 +141,8 @@ const Program = () => {
             </article>
           </details>
           {/* second section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6 cursor-pointer">
-            <summary className="text-white text-lg mb-3 hover:text-green-400">
+          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
+            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Group Fitness Classes:
             </summary>
             <article>
