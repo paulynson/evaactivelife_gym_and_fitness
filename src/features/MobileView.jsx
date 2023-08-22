@@ -77,7 +77,7 @@ const MobileView = ({ navbar, setNavbar }) => {
             {" "}
             Testimonials
           </NavLink> */}
-          <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
+          <button className="py-3 px-6 bg-green-400 text-white font-bold hover:bg-green-600 text-lg rounded-full ">
             Sign Up
           </button>
         </div>

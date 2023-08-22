@@ -119,7 +119,7 @@ const Membership = () => {
             {/* Sumbit button */}
             <div className="my-4">
               <button
-                className="bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full"
+                className="bg-green-400 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full w-full"
                 onClick={calculateBMI}
               >
                 Calculate BMI

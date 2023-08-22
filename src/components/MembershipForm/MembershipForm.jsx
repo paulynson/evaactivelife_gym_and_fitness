@@ -243,7 +243,7 @@ const MembershipForm = () => {
         <div className="flex justify-center items-center">
           <button
             type="submit"
-            className="bg-green-400 hover:bg-green-600 w-full cursor-pointer lg:w-64 text-white py-2 px-6 rounded"
+            className="bg-green-400 hover:bg-green-600 w-full cursor-pointer lg:w-64 text-white py-3 px-6 rounded-full"
             disabled={!termsAgreed}
           >
             Submit

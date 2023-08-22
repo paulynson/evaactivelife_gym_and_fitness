@@ -44,7 +44,7 @@ const MainSection = () => {
             adipisci. Veniam explicabo eaque, asperiores ducimus quibusdam, eius
             iure officia doloremque hic sunt exercitationem.
           </p>
-          <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
+          <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
             About Us
           </button>
         </article>
@@ -117,7 +117,7 @@ const MainSection = () => {
                 </p>
               </div>
             </section>
-            <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
+            <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
               Join Today
             </button>
           </div>
@@ -158,7 +158,7 @@ const MainSection = () => {
                 <li>Discounted Add-On Classes</li>
               </ul>
               <div className="mt-6 text-center">
-                <button className="rounded-full py-2 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
+                <button className="rounded-full py-3 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
                   Choose Plan
                 </button>
               </div>
@@ -179,7 +179,7 @@ const MainSection = () => {
                 <li>Discounted Add-On Classes</li>
               </ul>
               <div className="mt-6 text-center">
-                <button className="rounded-full py-2 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
+                <button className="rounded-full py-3 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
                   Choose Plan
                 </button>
               </div>
@@ -202,7 +202,7 @@ const MainSection = () => {
                 <li>30-Day Risk Free Guarantee†</li>
               </ul>
               <div className="mt-6 text-center">
-                <button className="rounded-full py-2 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
+                <button className="rounded-full py-3 px-6 border-white border-2 group-hover:bg-white group-hover:text-green-600 ">
                   Choose Plan
                 </button>
               </div>

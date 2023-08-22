@@ -13,7 +13,7 @@ const HeroSection = () => {
           tranquil mind using the transformative influence of fitness.
         </p>
         <div className="flex gap-4">
-          <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
+          <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
             Get Started
           </button>
           <a href="#/" className="flex items-center hover:text-green-400">
