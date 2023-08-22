@@ -76,14 +76,10 @@ const Membership = () => {
           affordable prices. However, our vision extended beyond being a mere
           fitness equipment supplier; our goal was to lead the industry.
         </p>
-
-        {/* <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
-          About Us
-        </button> */}
       </article>
 
       {/* BMI Calculation */}
-      <section className="grid grid-cols-12 lg:gap-0 items-center justify-center bg-slate-800 px-6 gap-4 mb-6">
+      <section className="grid grid-cols-12 lg:gap-0 items-center justify-center  px-6 gap-4 mb-6">
         <section className="text-slate-200  py-8 lg:col-span-6 md:col-span-6 sm:col-span-12 px-1 col-span-12 rounded-lg">
           <h1 className="text-2xl font-bold mb-4 uppercase lg:text-left text-center text-green-600">
             BMI Calculator
@@ -117,7 +113,7 @@ const Membership = () => {
               />
             </div>
             {/* Sumbit button */}
-            <div className="my-4">
+            <div className="my-6">
               <button
                 className="bg-green-400 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full w-full"
                 onClick={calculateBMI}
