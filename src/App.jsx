@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./features/pages/homePage/HomePage";
 import Header from "./components/layouts/Header";
+import Footer from "./components/layouts/Footer";
 import About from "./features/pages/about/About";
 import Program from "./features/pages/program/Program";
 import Shop from "./features/pages/shop/Shop";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/membership" element={<Membership />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

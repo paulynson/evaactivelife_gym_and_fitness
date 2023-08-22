@@ -68,7 +68,7 @@ const Header = () => {
                 {" "}
                 Shop
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 to="/testimonials"
                 className={({ isActive }) =>
                   isActive ? "text-green-400 font-bold" : "text-white"
@@ -76,7 +76,7 @@ const Header = () => {
               >
                 {" "}
                 Testimonials
-              </NavLink>
+              </NavLink> */}
               <button className="py-2 px-5 bg-green-400 text-white hover:bg-green-600 rounded-lg ">
                 Sign Up
               </button>

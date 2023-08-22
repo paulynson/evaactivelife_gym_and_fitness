@@ -37,8 +37,11 @@ const HeroSection = () => {
           </div>
         </section>
       </div>
-      <div className="flex lg:col-span-6 col-span-12 justify-end items-center">
-        <img src={heroimage} alt="Hero Image" className="w-full h-full" />
+      <div className="flex lg:col-span-6 col-span-12 justify-end items-center relative">
+        <img src={heroimage} alt="Hero Image" className="w-full h-full z-50" />
+        <div className="absolute w-20 h-20 rounded-full bg-orange-400 top-0 right-0 animate-ping"></div>
+        <div className="absolute w-96 h-96 rounded-full lg:block hidden bg-green-200 top-0 left-0 "></div>
+        <div className="absolute w-32 h-32 rounded-full lg:block hidden bg-purple-600 bottom-0 right-16 "></div>
       </div>
     </section>
   );

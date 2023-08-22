@@ -4,6 +4,7 @@ import { useState } from "react";
 import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
 import bmichart from "../../../assets/bmi_transparent.png";
+import MembershipForm from "../../../components/MembershipForm/MembershipForm";
 
 const Membership = () => {
   const [weight, setWeight] = useState("");
@@ -82,8 +83,8 @@ const Membership = () => {
       </article>
 
       {/* BMI Calculation */}
-      <section className="grid grid-cols-12 lg:gap-0 items-center justify-center bg-slate-50 px-4 gap-4 mb-6">
-        <section className="text-black  py-8 px-6 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12 rounded-lg">
+      <section className="grid grid-cols-12 lg:gap-0 items-center justify-center bg-slate-800 px-6 gap-4 mb-6">
+        <section className="text-slate-200  py-8 lg:col-span-6 md:col-span-6 sm:col-span-12 px-1 col-span-12 rounded-lg">
           <h1 className="text-2xl font-bold mb-4 uppercase lg:text-left text-center text-green-600">
             BMI Calculator
           </h1>
@@ -100,7 +101,7 @@ const Membership = () => {
             <div className="mb-2">
               <label className="block font-medium">Weight (kg):</label>
               <input
-                className="border rounded px-3 py-2 w-full"
+                className="border rounded px-3 text-slate-800 py-2 w-full"
                 type="number"
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
@@ -109,18 +110,21 @@ const Membership = () => {
             <div className="mb-2">
               <label className="block font-medium">Height (cm):</label>
               <input
-                className="border rounded px-3 py-2 w-full"
+                className="border rounded px-3 text-slate-800 py-2 w-full"
                 type="number"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
               />
             </div>
-            <button
-              className="bg-gray-600 hover:bg-gray-800 text-white py-1 px-4 rounded"
-              onClick={calculateBMI}
-            >
-              Calculate BMI
-            </button>
+            {/* Sumbit button */}
+            <div className="my-4">
+              <button
+                className="bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full"
+                onClick={calculateBMI}
+              >
+                Calculate BMI
+              </button>
+            </div>
           </section>
 
           <p className="mt-2" id="result">
@@ -136,6 +140,9 @@ const Membership = () => {
           />
         </div>
       </section>
+
+      {/* Membrship Form */}
+      <MembershipForm />
     </section>
   );
 };
