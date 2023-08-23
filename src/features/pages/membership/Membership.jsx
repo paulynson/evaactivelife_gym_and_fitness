@@ -4,7 +4,8 @@ import { useState } from "react";
 import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
 import bmichart from "../../../assets/bmi_transparent.png";
-import MembershipForm from "../../../components/MembershipForm/MembershipForm";
+import { Helmet } from "react-helmet";
+// import MembershipForm from "../../../components/MembershipForm/MembershipForm";
 
 const Membership = () => {
   const [weight, setWeight] = useState("");
@@ -52,6 +53,17 @@ const Membership = () => {
   };
   return (
     <section>
+      {/* Page Title */}
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Membership | EvaActiveLife Gym and Fitness</title>
+        <link
+          rel="canonical"
+          href="https://evaactivelifegym.netlify.app/membership"
+        />
+      </Helmet>
+
       <section className="flex flex-col items-center justify-center relative ">
         <h1 className="lg:text-6xl text-4xl font-bold text-green-600 mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           Membership
@@ -138,7 +150,7 @@ const Membership = () => {
       </section>
 
       {/* Membrship Form */}
-      <MembershipForm />
+      {/* <MembershipForm /> */}
     </section>
   );
 };

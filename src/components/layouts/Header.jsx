@@ -2,22 +2,27 @@ import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileView from "../../features/MobileView";
+import logo from "../../assets/evaactive_logo.png";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="py-8">
-      <nav className="flex justify-between items-center">
+    <header className="py-8 ">
+      <nav className="flex justify-between items-center bg-white px-4 rounded-lg">
         <Link
           to="/"
           className=" font-bold hover:text-green-600 hover:scale-105"
         >
-          EvaActiveLife Gym & Fitness
+          <img
+            src={logo}
+            alt="Evaactivelife Gym Logo"
+            className="lg:w-28 w-20"
+          />
         </Link>
         <section>
           <div className="lg:hidden block">
             <HiMenuAlt3
-              className="text-white text-3xl cursor-pointer hover:text-green-600"
+              className="text-slate-800 text-3xl cursor-pointer hover:text-green-600"
               onClick={() => setNavbar(!navbar)}
             />
           </div>
@@ -27,8 +32,8 @@ const Header = () => {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-green-400 font-bold"
-                    : "text-white hover:text-green-400"
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -38,8 +43,8 @@ const Header = () => {
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-green-400 font-bold"
-                    : "text-white hover:text-green-400"
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -49,8 +54,8 @@ const Header = () => {
                 to="/program"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-green-400 font-bold"
-                    : "text-white hover:text-green-400"
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -60,8 +65,8 @@ const Header = () => {
                 to="/membership"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-green-400 font-bold"
-                    : "text-white hover:text-green-400"
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -71,8 +76,8 @@ const Header = () => {
                 to="/shop"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-green-400 font-bold"
-                    : "text-white hover:text-green-400"
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -81,15 +86,29 @@ const Header = () => {
               {/* <NavLink
                 to="/testimonials"
                 className={({ isActive }) =>
-                  isActive ? "text-green-400 font-bold" : "text-white hover:text-green-400"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
                 Testimonials
               </NavLink> */}
-              <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
-                Sign Up
-              </button>
+              {/* <Link
+                to="/contact"
+                className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
+              >
+                Contact Us
+              </Link> */}
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-300 font-bold bg-green-600 rounded-full py-3 px-6"
+                    : "py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full"
+                }
+              >
+                {" "}
+                Contact Us
+              </NavLink>
             </div>
           </section>
         </section>

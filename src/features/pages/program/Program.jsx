@@ -1,9 +1,18 @@
 // import React from 'react'
 import program_hero from "../../../assets/program_hero.jpg";
+import { Helmet } from "react-helmet";
 
 const Program = () => {
   return (
     <section>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Program | EvaActiveLife Gym and Fitness</title>
+        <link
+          rel="canonical"
+          href="https://evaactivelifegym.netlify.app/program"
+        />
+      </Helmet>
       <section className="flex flex-col items-center justify-center relative ">
         <h1 className="lg:text-6xl text-4xl font-bold text-white mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           Program

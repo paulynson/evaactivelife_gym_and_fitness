@@ -6,8 +6,8 @@ import Footer from "./components/layouts/Footer";
 import About from "./features/pages/about/About";
 import Program from "./features/pages/program/Program";
 import Shop from "./features/pages/shop/Shop";
-import Testimonials from "./features/pages/testimonials/Testimonials";
 import Membership from "./features/pages/membership/Membership";
+import Contact from "./features/pages/contact/Contact";
 import NotFound from "./features/pages/notfound/NotFound";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/program" element={<Program />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/membership" element={<Membership />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

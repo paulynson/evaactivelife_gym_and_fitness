@@ -5,9 +5,9 @@ import side from "../../assets/side.jpg";
 import gym_two_bg from "../../assets/gym_two_bg.png";
 import mainSectionData from "./MainSectionData";
 import about_hero from "../../assets/about_hero.jpg";
-
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "react-router-dom";
 
 const MainSection = () => {
   return (
@@ -44,9 +44,14 @@ const MainSection = () => {
             adipisci. Veniam explicabo eaque, asperiores ducimus quibusdam, eius
             iure officia doloremque hic sunt exercitationem.
           </p>
-          <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
-            About Us
-          </button>
+          <div className="my-6">
+            <Link
+              to="/about"
+              className="my-4 py-3 px-6 text-base bg-green-400 text-white hover:bg-green-600 rounded-full "
+            >
+              About Us
+            </Link>
+          </div>
         </article>
       </section>
       {/* Program Section */}
@@ -117,9 +122,14 @@ const MainSection = () => {
                 </p>
               </div>
             </section>
-            <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
-              Join Today
-            </button>
+            <div className="mt-8">
+              <Link
+                to="/membership"
+                className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
+              >
+                Join Today
+              </Link>
+            </div>
           </div>
           <div className="flex lg:col-span-6 col-span-12  relative  items-center justify-center lg:order-last order-last">
             <div className="rounded-full ">

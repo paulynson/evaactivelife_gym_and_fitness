@@ -6,10 +6,19 @@ import shop_hero_two from "../../../assets/shop_hero_two.jpg";
 import shop_hero_three from "../../../assets/shop_hero_three.jpg";
 import shop_hero_four from "../../../assets/shop_hero_four.jpg";
 import ShopProductsPage from "./ShopProductsPage";
+import { Helmet } from "react-helmet";
 
 const Shop = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Shop | EvaActiveLife Gym and Fitness</title>
+        <link
+          rel="canonical"
+          href="https://evaactivelifegym.netlify.app/shop"
+        />
+      </Helmet>
       {/* <section className="flex flex-col items-center justify-center relative ">
         <h1 className="lg:text-6xl text-4xl font-bold text-green-600 mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           Membership

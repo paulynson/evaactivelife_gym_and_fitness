@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import logo from "../assets/evaactive_logo.png";
 
 const MobileView = ({ navbar, setNavbar }) => {
   return (
@@ -11,8 +12,8 @@ const MobileView = ({ navbar, setNavbar }) => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-green-400 font-bold text-3xl"
-                : "text-white hover:text-green-400 text-xl"
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -23,8 +24,8 @@ const MobileView = ({ navbar, setNavbar }) => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "text-green-400 font-bold text-3xl"
-                : "text-white hover:text-green-400 text-xl"
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -35,8 +36,8 @@ const MobileView = ({ navbar, setNavbar }) => {
             to="/program"
             className={({ isActive }) =>
               isActive
-                ? "text-green-400 font-bold text-3xl"
-                : "text-white hover:text-green-400 text-xl"
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -47,8 +48,8 @@ const MobileView = ({ navbar, setNavbar }) => {
             to="/membership"
             className={({ isActive }) =>
               isActive
-                ? "text-green-400 font-bold text-3xl"
-                : "text-white hover:text-green-400 text-xl"
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
@@ -59,28 +60,35 @@ const MobileView = ({ navbar, setNavbar }) => {
             to="/shop"
             className={({ isActive }) =>
               isActive
-                ? "text-green-400 font-bold text-3xl"
-                : "text-white hover:text-green-400 text-xl"
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
             }
             onClick={() => setNavbar(!navbar)}
           >
             {" "}
             Shop
           </NavLink>
-          {/* <NavLink
-            to="/testimonials"
-            className={({ isActive }) = text-3xl>
-              isActive ? "text-green-400 font-bold" : "text-white hover:text-green-400 text-xl"
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive
+                ? "text-yellow-300 font-bold bg-green-600 rounded-full py-3 px-6"
+                : "py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full"
             }
             onClick={() => setNavbar(!navbar)}
           >
             {" "}
-            Testimonials
-          </NavLink> */}
-          <button className="py-3 px-6 bg-green-400 text-white font-bold hover:bg-green-600 text-lg rounded-full ">
-            Sign Up
-          </button>
+            Contact Us
+          </NavLink>
         </div>
+        <Link to="/" className="absolute top-2 left-3 p-4 cursor-pointer">
+          <img
+            src={logo}
+            alt="Evaactivelife Gym & Fitnes"
+            className="w-16 hover:scale-105"
+          />
+        </Link>
         <div className="absolute top-4 right-3 p-4 cursor-pointer">
           <AiOutlineCloseCircle
             className="text-white text-3xl hover:text-green-600 hover:animate-spin"

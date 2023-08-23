@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroimage from "../../assets/hero_gym.png";
 import { GoPlay } from "react-icons/go";
 
@@ -13,9 +14,12 @@ const HeroSection = () => {
           tranquil mind using the transformative influence of fitness.
         </p>
         <div className="flex gap-4">
-          <button className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full ">
+          <Link
+            to="/membership"
+            className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
+          >
             Get Started
-          </button>
+          </Link>
           <a href="#/" className="flex items-center hover:text-green-400">
             <GoPlay className="text-3xl mr-2" /> <span>Watch Video</span>
           </a>

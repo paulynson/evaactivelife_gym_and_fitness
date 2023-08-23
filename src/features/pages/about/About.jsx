@@ -4,10 +4,19 @@ import about_hero from "../../../assets/about_hero.jpg";
 import instructor_one from "../../../assets/instructor_one.jpg";
 import instructor_two from "../../../assets/instructor_two.jpg";
 import instructor_three from "../../../assets/instructor_three.jpg";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <section>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | EvaActiveLife Gym and Fitness</title>
+        <link
+          rel="canonical"
+          href="https://evaactivelifegym.netlify.app/about"
+        />
+      </Helmet>
       {/* Hero section */}
       <section className="flex flex-col items-center justify-center relative ">
         <h1 className="lg:text-6xl text-4xl font-bold text-black mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
