@@ -82,19 +82,22 @@ const MobileView = ({ navbar, setNavbar }) => {
             Contact Us
           </NavLink>
         </div>
-        <Link to="/" className="absolute top-2 left-3 p-4 cursor-pointer">
-          <img
-            src={logo}
-            alt="Evaactivelife Gym & Fitnes"
-            className="w-16 hover:scale-105"
-          />
-        </Link>
-        <div className="absolute top-4 right-3 p-4 cursor-pointer">
-          <AiOutlineCloseCircle
-            className="text-white text-3xl hover:text-green-600 hover:animate-spin"
-            onClick={() => setNavbar(!navbar)}
-          />
-        </div>
+        {/* Mobile Nav */}
+        <section>
+          <Link to="/" className="absolute top-2 left-3 p-4 cursor-pointer">
+            <img
+              src={logo}
+              alt="Evaactivelife Gym & Fitnes"
+              className="w-16 hover:scale-105"
+            />
+          </Link>
+          <div className="absolute top-4 right-3 p-4 cursor-pointer">
+            <AiOutlineCloseCircle
+              className="text-white text-3xl hover:text-green-600 hover:animate-spin"
+              onClick={() => setNavbar(!navbar)}
+            />
+          </div>
+        </section>
       </div>
     </div>
   );

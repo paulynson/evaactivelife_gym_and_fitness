@@ -83,21 +83,7 @@ const Header = () => {
                 {" "}
                 Shop
               </NavLink>
-              {/* <NavLink
-                to="/testimonials"
-                className={({ isActive }) =>
-                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
-                }
-              >
-                {" "}
-                Testimonials
-              </NavLink> */}
-              {/* <Link
-                to="/contact"
-                className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
-              >
-                Contact Us
-              </Link> */}
+
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
