@@ -20,7 +20,7 @@ const MainSection = () => {
             className="w-full h-full rounded-lg lg:block hidden"
           />
         </div>
-        <article className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1">
+        <article className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1 lg:px-12 px-2">
           <h3 className="text-3xl font-bold">
             Prepare yourself to achieve your fitness objectives.
           </h3>

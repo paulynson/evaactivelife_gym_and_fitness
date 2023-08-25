@@ -5,22 +5,25 @@ import { GoPlay } from "react-icons/go";
 const HeroSection = () => {
   return (
     <section className="my-12 grid grid-cols-12 gap-4 items-center ">
-      <div className="lg:col-span-6 col-span-12">
+      <div className="lg:col-span-6 col-span-12 lg:text-left text-center">
         <h1 className="lg:text-5xl text-[2.5rem] font-bold leading-normal">
           Attain a Fit Physique Through Optimal Exercise Routines
         </h1>
-        <p className="py-6">
+        <p className="py-6 lg:text-left text-center">
           We are dedicated to assisting you in achieving a sound body and a
           tranquil mind using the transformative influence of fitness.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 lg:justify-start justify-center">
           <Link
             to="/membership"
             className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
           >
             Get Started
           </Link>
-          <a href="#/" className="flex items-center hover:text-green-400">
+          <a
+            href="#/"
+            className="flex lg:justify-start justify-center items-center hover:text-green-400"
+          >
             <GoPlay className="text-3xl mr-2" /> <span>Watch Video</span>
           </a>
         </div>

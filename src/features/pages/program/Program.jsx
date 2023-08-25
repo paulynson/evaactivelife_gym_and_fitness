@@ -13,9 +13,9 @@ const Program = () => {
           href="https://evaactivelifegym.netlify.app/program"
         />
       </Helmet>
-      <section className="flex flex-col items-center justify-center relative ">
-        <h1 className="lg:text-6xl text-4xl font-bold text-white mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          Program
+      <section className="flex flex-col items-center justify-center relative text-center">
+        <h1 className="lg:text-6xl text-4xl font-bold text-white mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+          Our Programs
         </h1>
         <img
           src={program_hero}
@@ -123,18 +123,8 @@ const Program = () => {
               </ul>
             </article>
           </details>
+
           {/* eight section */}
-          <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
-            <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
-              Youth Fitness:{" "}
-            </summary>
-            <article>
-              <ul className="text-white text-sm list-disc ml-4">
-                <li> Fitness programs designed for children and teenagers.</li>
-              </ul>
-            </article>
-          </details>
-          {/* seventh section */}
           <details className="col-span-12 lg:col-span-4 md:col-span-6  border-green-400 border-2 py-4 px-6">
             <summary className="text-white text-lg mb-3 hover:text-green-400 cursor-pointer">
               Specialized Classes:{" "}
@@ -185,6 +175,44 @@ const Program = () => {
               </ul>
             </article>
           </details>
+        </section>
+      </section>
+
+      {/* Program Time */}
+      <section className="py-16 bg-slate-800">
+        <h2 className="text-3xl font-bold mb-3 text-white text-center">
+          Program Time
+        </h2>
+
+        <section className="py-4 px-6">
+          <div className="grid lg:grid-cols-12  gap-4 ">
+            <div className=" col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-6 border-green-400 border-2 py-4 px-6">
+              <h3 className="text-xl font-bold text-green-400 mb-4">
+                Morning Class
+              </h3>
+              <ul className="space-y-2">
+                <li>6:30am - 08:00am</li>
+                <li>08:00am - 09:30am</li>
+                <li>09:30am - 11:00am</li>
+              </ul>
+            </div>
+            <div className="col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-6 border-green-400 border-2 py-4 px-6">
+              <h3 className="text-xl font-bold text-green-400 mb-4">
+                Evening Class
+              </h3>
+              <ul className="space-y-2">
+                <li>05:00pm - 08:00pm</li>
+              </ul>
+            </div>
+            <div className="col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-6  border-green-400 border-2 py-4 px-6">
+              <h3 className="text-xl font-bold text-green-400 mb-4">
+                Saturday Class
+              </h3>
+              <ul className="space-y-2">
+                <li> Morning session (general class) 07:00am</li>
+              </ul>
+            </div>
+          </div>
         </section>
       </section>
     </section>

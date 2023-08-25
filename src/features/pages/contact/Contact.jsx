@@ -17,8 +17,8 @@ const Contact = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center relative ">
-        <h1 className="lg:text-6xl text-4xl font-bold text-green-500 mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+      <section className="flex flex-col items-center justify-center relative text-center">
+        <h1 className="lg:text-6xl text-4xl font-bold text-green-500 mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
           Contact Us
         </h1>
         <img
