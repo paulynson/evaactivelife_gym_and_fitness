@@ -1,5 +1,6 @@
 import React from "react";
 import side from "../../assets/side.jpg";
+import gymTime from "../../assets/we.jpg";
 // import gym_one from "../../assets/gym_one.jpg";
 // import gym_two from "../../assets/gym_two.png";
 import gym_two_bg from "../../assets/gym_two_bg.png";
@@ -15,7 +16,7 @@ const MainSection = () => {
       <section className="grid grid-cols-12 lg:gap-8 gap-4 lg:py-32 py-8 border-t-2 border-b-2 border-slate-800">
         <div className="flex lg:col-span-6 col-span-12 justify-end items-center lg:order-1 order-last">
           <img
-            src={side}
+            src={gymTime}
             alt="Hero Image"
             className="w-full h-full rounded-lg lg:block hidden"
           />
@@ -27,7 +28,7 @@ const MainSection = () => {
           <div className="lg:hidden block my-6">
             {" "}
             <img
-              src={side}
+              src={gymTime}
               alt="Hero Image"
               className="object-contain rounded-lg w-full"
             />
