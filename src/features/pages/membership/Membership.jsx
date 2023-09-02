@@ -6,7 +6,8 @@ import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
 import bmichart from "../../../assets/bmi_transparent.png";
 import { Helmet } from "react-helmet";
-import PagesHeros from "../../../components/PagesHeros/PagesHeros";
+import PagesHeros from "../../../components/pagesHeros/PagesHeros";
+
 // import MembershipForm from "../../../components/MembershipForm/MembershipForm";
 
 const Membership = () => {

@@ -1,7 +1,7 @@
 // import React from 'react'
 import program_hero from "../../../assets/program_hero.jpg";
 import { Helmet } from "react-helmet";
-import PagesHeros from "../../../components/PagesHeros/PagesHeros";
+import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 
 const Program = () => {
   return (
