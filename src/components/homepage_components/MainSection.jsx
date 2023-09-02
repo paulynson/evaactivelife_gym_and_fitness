@@ -1,5 +1,5 @@
 import React from "react";
-import side from "../../assets/side.jpg";
+// import side from "../../assets/side.jpg";
 import gymTime from "../../assets/we.jpg";
 // import gym_one from "../../assets/gym_one.jpg";
 // import gym_two from "../../assets/gym_two.png";
@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const MainSection = () => {
   return (
     <>
-      <section className="grid grid-cols-12 lg:gap-8 gap-4 lg:py-32 py-8 border-t-2 border-b-2 border-slate-800">
+      <section className="grid grid-cols-12 lg:gap-8 gap-4 lg:py-32 py-8 border-t-2 border-b-2 border-slate-800  items-center">
         <div className="flex lg:col-span-6 col-span-12 justify-end items-center lg:order-1 order-last">
           <img
             src={gymTime}
@@ -21,7 +21,7 @@ const MainSection = () => {
             className="w-full h-full rounded-lg lg:block hidden"
           />
         </div>
-        <article className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1 lg:px-12 px-2">
+        <article className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1 lg:px-12 px-2 ">
           <h3 className="text-3xl font-bold">
             Prepare yourself to achieve your fitness objectives.
           </h3>
@@ -34,16 +34,15 @@ const MainSection = () => {
             />
           </div>
           <p className="leading-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-            tempore, necessitatibus blanditiis ea aspernatur libero illo nihil
-            adipisci. Veniam explicabo eaque, asperiores ducimus quibusdam, eius
-            iure officia doloremque hic sunt exercitationem.
+            EvaActiveLife Gym and Fitness Nigeria, established in 2002, is more
+            than a fitness equipment retailer; we&apos;re your dedicated
+            partners in embracing a healthier, more vibrant life.
           </p>
           <p className="leading-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-            tempore, necessitatibus blanditiis ea aspernatur libero illo nihil
-            adipisci. Veniam explicabo eaque, asperiores ducimus quibusdam, eius
-            iure officia doloremque hic sunt exercitationem.
+            We provide top-quality equipment and unwavering support to empower
+            you on your fitness journey. Join us in our mission to enhance lives
+            through fitness and wellness, because at EvaActiveLife, your health
+            is our passion.
           </p>
           <div className="my-6">
             <Link

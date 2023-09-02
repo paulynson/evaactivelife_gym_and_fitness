@@ -73,6 +73,17 @@ const Header = () => {
                 Membership
               </NavLink>
               <NavLink
+                to="/videos"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-green-500 font-bold"
+                    : "text-slate-800 hover:text-green-500"
+                }
+              >
+                {" "}
+                Gym Videos
+              </NavLink>
+              <NavLink
                 to="/shop"
                 className={({ isActive }) =>
                   isActive

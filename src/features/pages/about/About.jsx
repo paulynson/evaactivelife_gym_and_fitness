@@ -21,10 +21,10 @@ const About = () => {
       <PagesHeros src={about_hero} title="About Us" alt="About Gym" />
 
       {/* our story */}
-      <article className="space-y-6 py-16 text-[18px]">
+      <article className="space-y-6 py-16 text-[18px]  flex flex-col items-center">
         <h3 className="text-3xl font-bold text-center">Our Story</h3>
 
-        <p className=" text-center text-gray-300 leading-8">
+        <p className=" text-center text-gray-300 leading-8 max-w-4xl">
           At EvaActiveLife Gym and Fitness, we firmly believe that fitness and
           overall well-being are the cornerstone of a vibrant and fulfilling
           life. Established in 2002, our journey began as a family-owned
@@ -32,14 +32,14 @@ const About = () => {
           affordable prices. However, our vision extended beyond being a mere
           fitness equipment supplier; our goal was to lead the industry.
         </p>
-        <p className=" text-center text-gray-300 leading-8">
+        <p className=" text-center text-gray-300 leading-8 max-w-4xl">
           Two decades later, we proudly stand as one of Nigeria&apos;s premier
           online retailers of fitness equipment under the banner of
           EvaActiveLife Gym and Fitness Nigeria. Our focus has grown beyond
           equipment provision – we&apos;ve emerged as proponents of fitness,
           holistic well-being, and life enrichment.
         </p>
-        <p className=" text-center text-gray-300 leading-8">
+        <p className=" text-center text-gray-300 leading-8 max-w-4xl">
           Our commitment to excellence shines through not only in the
           high-quality equipment we offer but also in the lives we&apos;ve
           positively impacted. Our true success lies in the numerous customers
@@ -48,13 +48,13 @@ const About = () => {
           allies, your enthusiastic supporters on the sidelines, motivating you
           to achieve your personal fitness aspirations.
         </p>
-        <p className=" text-center text-gray-300 leading-8">
+        <p className=" text-center text-gray-300 leading-8 max-w-4xl">
           Embark on the fitness journey with us and witness how it transforms
           your world. Join us in our mission to enhance lives through fitness
           and wellness, because at EvaActiveLife Gym and Fitness Nigeria, your
           health is our passion.
         </p>
-        <p className=" text-center text-gray-500 leading-8">
+        <p className=" text-center text-gray-500 leading-8 max-w-4xl">
           At EvaActive Life Gym & Fitness, we are dedicated to helping you
           achieve your fitness goals through personalized training programs,
           state-of-the-art equipment, and a supportive community.
@@ -118,17 +118,17 @@ const About = () => {
 
       {/* Our Culture */}
       <section>
-        <article className="space-y-6 py-16 text-[18px]">
+        <article className="space-y-6 py-16 text-[18px] flex flex-col items-center text-center">
           <h3 className="text-3xl font-bold text-center">Our Culture</h3>
 
-          <p className=" text-center text-gray-300 leading-8">
+          <p className=" text-center text-gray-300 leading-8 max-w-4xl">
             We recognize the significance of fostering a positive culture. Our
             conviction lies in promoting encouragement, support, growth, and
             continuous learning for everyone. Embracing flexibility in our work
             solutions, alongside gym benefits and educational prospects,
             cultivates a harmonious work-life equilibrium for each team member.
           </p>
-          <p className=" text-center text-gray-300 leading-8">
+          <p className=" text-center text-gray-300 leading-8 max-w-4xl">
             At EvaActiveLife Gym and Fitness, our commitment extends to giving
             back. We allocate time, resources, and products to volunteer
             services and community organizations. Our dedication to enhancing
@@ -146,10 +146,12 @@ const About = () => {
 
       {/* Our People */}
       <section>
-        <article className="space-y-6 py-16 text-[18px]">
-          <h3 className="text-3xl font-bold text-center">Our People</h3>
+        <article className="space-y-6 py-16 text-[18px] flex flex-col items-center text-center">
+          <h3 className="text-3xl font-bold text-center max-w-3xl">
+            Our People
+          </h3>
 
-          <p className=" text-center text-gray-300 leading-8">
+          <p className=" text-center text-gray-300 leading-8 max-w-3xl">
             EvaActiveLife Gym and Fitness is fueled by a dynamic team of over 10
             exceptional individuals, each contributing their unique talents to
             drive our success. Our team is a harmonious blend of diverse

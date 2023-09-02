@@ -57,6 +57,18 @@ const MobileView = ({ navbar, setNavbar }) => {
             Membership
           </NavLink>
           <NavLink
+            to="/videos"
+            className={({ isActive }) =>
+              isActive
+                ? "text-green-500 font-bold text-3xl"
+                : "text-white hover:text-green-500 text-xl"
+            }
+            onClick={() => setNavbar(!navbar)}
+          >
+            {" "}
+            Gym Videos
+          </NavLink>
+          <NavLink
             to="/shop"
             className={({ isActive }) =>
               isActive
