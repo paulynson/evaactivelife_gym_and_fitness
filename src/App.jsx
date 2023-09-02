@@ -9,6 +9,7 @@ import Shop from "./features/pages/shop/Shop";
 import Membership from "./features/pages/membership/Membership";
 import Contact from "./features/pages/contact/Contact";
 import NotFound from "./features/pages/notfound/NotFound";
+import Videos from "./components/videos/Videos";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/membership" element={<Membership />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

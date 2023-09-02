@@ -1,6 +1,7 @@
 // import React from 'react'
 import program_hero from "../../../assets/program_hero.jpg";
 import { Helmet } from "react-helmet";
+import PagesHeros from "../../../components/PagesHeros/PagesHeros";
 
 const Program = () => {
   return (
@@ -13,16 +14,13 @@ const Program = () => {
           href="https://evaactivelifegym.netlify.app/program"
         />
       </Helmet>
-      <section className="flex flex-col items-center justify-center relative text-center">
-        <h1 className="lg:text-6xl text-4xl font-bold text-white mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          Our Programs
-        </h1>
-        <img
-          src={program_hero}
-          alt="Gym"
-          className="mb-4 rounded-lg shadow-lg w-full"
-        />
-      </section>
+      {/* Hero */}
+      <PagesHeros
+        src={program_hero}
+        title="Our Programs"
+        alt="Programs in the Gym"
+      />
+
       {/* Program List */}
       <section className="py-16">
         <h2 className="text-3xl font-bold mb-3 text-white text-center">

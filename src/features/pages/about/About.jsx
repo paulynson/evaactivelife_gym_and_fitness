@@ -5,6 +5,7 @@ import instructor_one from "../../../assets/instructor_one.jpg";
 import instructor_two from "../../../assets/instructor_two.jpg";
 import instructor_three from "../../../assets/instructor_three.jpg";
 import { Helmet } from "react-helmet";
+import PagesHeros from "../../../components/PagesHeros/PagesHeros";
 
 const About = () => {
   return (
@@ -18,16 +19,8 @@ const About = () => {
         />
       </Helmet>
       {/* Hero section */}
-      <section className="flex flex-col items-center justify-center relative text-center ">
-        <h1 className="lg:text-6xl text-4xl font-bold text-black mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          About Us
-        </h1>
-        <img
-          src={about_hero}
-          alt="Gym"
-          className="mb-4 rounded-lg shadow-lg w-full"
-        />
-      </section>
+      <PagesHeros src={about_hero} title="About Us" alt="About Gym" />
+
       {/* our story */}
       <article className="space-y-6 py-16 text-[18px]">
         <h3 className="text-3xl font-bold text-center">Our Story</h3>

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const MainSection = () => {
   return (
     <>
-      <section className="grid grid-cols-12 lg:gap-8 gap-4 py-16">
+      <section className="grid grid-cols-12 lg:gap-8 gap-4 lg:py-32 py-8 border-t-2 border-b-2 border-slate-800">
         <div className="flex lg:col-span-6 col-span-12 justify-end items-center lg:order-1 order-last">
           <img
             src={side}
@@ -144,7 +144,7 @@ const MainSection = () => {
       </section>
       {/* Price Section */}
 
-      <section className="py-16">
+      <section className="lg:py-32 py-8">
         {" "}
         <div className="text-center">
           <h3 className="text-3xl  font-bold leading-normal">
@@ -241,7 +241,7 @@ const MainSection = () => {
 
       {/* Our Clients */}
 
-      <section className="py-16">
+      <section className="py-16 border-t-2 border-slate-800">
         <div className=" grid grid-cols-12 items-center gap-4">
           {/* left */}
           <div className="lg:col-span-6 md:col-span-5 col-span-12">

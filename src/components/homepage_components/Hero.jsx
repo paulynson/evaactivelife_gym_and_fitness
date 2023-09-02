@@ -4,8 +4,8 @@ import { GoPlay } from "react-icons/go";
 
 const HeroSection = () => {
   return (
-    <section className="my-12 grid grid-cols-12 gap-4 items-center ">
-      <div className="lg:col-span-6 col-span-12 lg:text-left text-center">
+    <section className="lg:py-24 py-8 grid grid-cols-12 gap-8 items-center ">
+      <article className="lg:col-span-7 col-span-12 lg:text-left text-center lg:max-w-2xl w-auto">
         <h1 className="lg:text-5xl text-[2.5rem] font-bold leading-normal">
           Attain a Fit Physique Through Optimal Exercise Routines
         </h1>
@@ -24,7 +24,8 @@ const HeroSection = () => {
             href="#/"
             className="flex lg:justify-start justify-center items-center hover:text-green-400"
           >
-            <GoPlay className="text-3xl mr-2" /> <span>Watch Video</span>
+            <GoPlay className="text-3xl mr-2" />{" "}
+            <Link to="/videos">Watch Video</Link>
           </a>
         </div>
         <section className="flex items-center my-8 gap-6">
@@ -43,10 +44,13 @@ const HeroSection = () => {
             <span>Fitness Programs</span>
           </div>
         </section>
-      </div>
-      <div className="flex lg:col-span-6 col-span-12 justify-end items-center relative">
+      </article>
+      <div className="flex lg:col-span-5 col-span-12 justify-end items-center relative">
         <img src={heroimage} alt="Hero Image" className="w-full h-full z-30" />
         <div className="absolute lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-orange-400 top-0 right-8 animate-ping"></div>
+        <div className="absolute w-20 h-20 rounded-full  hidden bg-blue-200 -bottom-6 left-0 z-30 lg:flex justify-center items-center">
+          <p className="text-black text-sm font-bold animate-pulse">Stay Fit</p>
+        </div>
         <div className="absolute w-96 h-96 rounded-full lg:block hidden bg-green-200 top-0 left-0 "></div>
         <div className="absolute w-32 h-32 rounded-full lg:block hidden bg-purple-600 bottom-0 right-16 "></div>
       </div>

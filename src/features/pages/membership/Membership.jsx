@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useState } from "react";
@@ -5,6 +6,7 @@ import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
 import bmichart from "../../../assets/bmi_transparent.png";
 import { Helmet } from "react-helmet";
+import PagesHeros from "../../../components/PagesHeros/PagesHeros";
 // import MembershipForm from "../../../components/MembershipForm/MembershipForm";
 
 const Membership = () => {
@@ -63,24 +65,16 @@ const Membership = () => {
           href="https://evaactivelifegym.netlify.app/membership"
         />
       </Helmet>
+      {/* Hero Section */}
+      <PagesHeros src={membership_hero} title="Membership" alt="Gym" />
 
-      <section className="flex flex-col items-center justify-center relative text-center">
-        <h1 className="lg:text-6xl text-4xl font-bold text-green-600 mb-4 absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2">
-          Membership
-        </h1>
-        <img
-          src={membership_hero}
-          alt="Gym"
-          className="mb-4 rounded-lg shadow-lg w-full"
-        />
-      </section>
       {/* Membership Details */}
-      <article className="space-y-6 py-16 text-[18px]">
+      <article className="space-y-6 py-16 text-[18px] text-center flex flex-col justify-center items-center">
         <h3 className="text-3xl font-bold text-center">
           Get the Membership Experience
         </h3>
 
-        <p className=" text-center text-gray-300 leading-8">
+        <p className=" text-center text-gray-300 leading-8 lg:max-w-4xl w-auto">
           At EvaActiveLife Gym and Fitness, we firmly believe that fitness and
           overall well-being are the cornerstone of a vibrant and fulfilling
           life. Established in 2002, our journey began as a family-owned
