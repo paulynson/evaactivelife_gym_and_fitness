@@ -5,8 +5,7 @@ import instructor_one from "../../../assets/instructor_one.jpg";
 import instructor_two from "../../../assets/instructor_two.jpg";
 import instructor_three from "../../../assets/instructor_three.jpg";
 import { Helmet } from "react-helmet";
-import PagesHeros from "../../../components/PagesHeros/PagesHeros";
-
+import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 const About = () => {
   return (
     <section>
