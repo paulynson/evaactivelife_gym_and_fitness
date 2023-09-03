@@ -75,7 +75,7 @@ const MainSection = () => {
         <section className="grid grid-cols-12 lg:gap-16 gap-4 px-4 items-center">
           <div className="space-y-6 lg:col-span-6 col-span-12 lg:order-1 order-1">
             <h3 className="text-3xl  font-bold leading-normal">
-              Why opt for EvaActive Life Gym and Fitness?
+              Why opt for Evaactive Life Gym and Fitness?
             </h3>
             <div className="lg:hidden block my-6">
               {" "}
