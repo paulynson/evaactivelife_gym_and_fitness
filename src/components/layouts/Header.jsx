@@ -16,7 +16,7 @@ const Header = () => {
           <img
             src={logo}
             alt="Evaactivelife Gym Logo"
-            className="lg:w-28 w-20 p-3"
+            className="lg:w-28 w-20 py-3"
           />
         </Link>
         <section>
