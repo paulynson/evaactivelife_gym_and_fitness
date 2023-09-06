@@ -30,7 +30,7 @@ const Shop = () => {
         />
       </section> */}
       {/* Carousel Section */}
-      <div className="my-8">
+      <div className="">
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
@@ -39,7 +39,7 @@ const Shop = () => {
           showStatus={false}
         >
           <div>
-            <img src={shop_hero_one} />
+            <img src={shop_hero_one} className="rounded-lg" />
             {/* <p className="legend">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse
               incidunt maxime dolor, eaque ratione autem quae. Perferendis aut
@@ -47,7 +47,7 @@ const Shop = () => {
             </p> */}
           </div>
           <div>
-            <img src={shop_hero_two} />
+            <img src={shop_hero_two} className="rounded-lg" />
             {/* <p className="legend">
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse
@@ -56,7 +56,7 @@ const Shop = () => {
             </p> */}
           </div>
           <div>
-            <img src={shop_hero_three} />
+            <img src={shop_hero_three} className="rounded-lg" />
             {/* <div className="legend">
               {" "}
               <p>
@@ -70,7 +70,7 @@ const Shop = () => {
             </div> */}
           </div>
           <div>
-            <img src={shop_hero_four} />
+            <img src={shop_hero_four} className="rounded-lg" />
             {/* <div className="legend">
               {" "}
               <p>
