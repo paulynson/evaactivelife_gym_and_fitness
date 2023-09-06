@@ -45,6 +45,13 @@ const Contact = () => {
         accessing the details necessary to embark on a healthy and active
         lifestyle.
       </section>
+      {/* call */}
+      <section className="text-center py-8 gap-4">
+        <h3 className="text-3xl mb-4">Call for more information</h3>
+        <a href="tel:+234 708 533 9236" className="text-2xl text-green-500">
+          +234 708 533 9236
+        </a>
+      </section>
     </section>
   );
 };

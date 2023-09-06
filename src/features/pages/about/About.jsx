@@ -81,7 +81,7 @@ const About = () => {
             <img src={instructor_one} alt="" />
             <article>
               <h4 className="my-3 text-xl font-bold">John</h4>
-              <p>
+              <p className="leading-loose">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
                 mollitia veniam impedit tempora molestias, excepturi consectetur
@@ -92,8 +92,8 @@ const About = () => {
           <div className="lg:col-span-4 px-4 border-2 border-green-400 py-4 rounded-lg md:col-span-6 sm:col-span-6 col-span-12">
             <img src={instructor_two} alt="" />
             <article>
-              <h4 className="my-3 text-xl font-bold">John</h4>
-              <p>
+              <h4 className="my-3 text-xl font-bold">Tade</h4>
+              <p className="leading-loose">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
                 mollitia veniam impedit tempora molestias, excepturi consectetur
@@ -104,8 +104,8 @@ const About = () => {
           <div className="lg:col-span-4 px-4 border-2 border-green-400 py-4 rounded-lg md:col-span-6 sm:col-span-6 col-span-12">
             <img src={instructor_three} alt="" />
             <article>
-              <h4 className="my-3 text-xl font-bold">John</h4>
-              <p>
+              <h4 className="my-3 text-xl font-bold">Seun</h4>
+              <p className="leading-loose">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
                 mollitia veniam impedit tempora molestias, excepturi consectetur
@@ -147,11 +147,11 @@ const About = () => {
       {/* Our People */}
       <section>
         <article className="space-y-6 py-16 text-[18px] flex flex-col items-center text-center">
-          <h3 className="text-3xl font-bold text-center max-w-3xl">
+          <h3 className="text-3xl font-bold text-center max-w-4xl">
             Our People
           </h3>
 
-          <p className=" text-center text-gray-300 leading-8 max-w-3xl">
+          <p className=" text-center text-gray-300 leading-8 max-w-4xl">
             EvaActiveLife Gym and Fitness is fueled by a dynamic team of over 10
             exceptional individuals, each contributing their unique talents to
             drive our success. Our team is a harmonious blend of diverse
