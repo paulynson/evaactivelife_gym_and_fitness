@@ -1,5 +1,5 @@
-import HeroSection from "../../../components/homepage_components/Hero";
-import MainSection from "../../../components/homepage_components/MainSection";
+import HeroSection from "./homepage_components/Hero";
+import MainSection from "./homepage_components/MainSection";
 import { Helmet } from "react-helmet";
 
 const HomePage = () => {

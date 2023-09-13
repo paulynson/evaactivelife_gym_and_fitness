@@ -10,7 +10,7 @@ const video = () => {
     <section>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Videos | EvaActiveLife Gym and Fitness</title>
+        <title>Videos | EvaactiveLife Gym and Fitness</title>
         <link
           rel="canonical"
           href="https://evaactivelifegym.netlify.app/videos"

@@ -11,7 +11,7 @@ const About = () => {
     <section>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>About Us | EvaActiveLife Gym and Fitness</title>
+        <title>About Us | EvaactiveLife Gym and Fitness</title>
         <link
           rel="canonical"
           href="https://evaactivelifegym.netlify.app/about"
@@ -25,7 +25,7 @@ const About = () => {
         <h3 className="text-3xl font-bold text-center">Our Story</h3>
 
         <p className=" text-center text-gray-300 leading-8 max-w-4xl">
-          At EvaActiveLife Gym and Fitness, we firmly believe that fitness and
+          At EvaactiveLife Gym and Fitness, we firmly believe that fitness and
           overall well-being are the cornerstone of a vibrant and fulfilling
           life. Established in 2002, our journey began as a family-owned
           business with a commitment to providing exceptional gym equipment at
@@ -51,7 +51,7 @@ const About = () => {
         <p className=" text-center text-gray-300 leading-8 max-w-4xl">
           Embark on the fitness journey with us and witness how it transforms
           your world. Join us in our mission to enhance lives through fitness
-          and wellness, because at EvaActiveLife Gym and Fitness Nigeria, your
+          and wellness, because at EvaactiveLife Gym and Fitness Nigeria, your
           health is our passion.
         </p>
         <p className=" text-center text-gray-500 leading-8 max-w-4xl">
@@ -129,7 +129,7 @@ const About = () => {
             cultivates a harmonious work-life equilibrium for each team member.
           </p>
           <p className=" text-center text-gray-300 leading-8 max-w-4xl">
-            At EvaActiveLife Gym and Fitness, our commitment extends to giving
+            At EvaactiveLife Gym and Fitness, our commitment extends to giving
             back. We allocate time, resources, and products to volunteer
             services and community organizations. Our dedication to enhancing
             individuals&apos; health, fitness, and well-being is manifested
@@ -152,7 +152,7 @@ const About = () => {
           </h3>
 
           <p className=" text-center text-gray-300 leading-8 max-w-4xl">
-            EvaActiveLife Gym and Fitness is fueled by a dynamic team of over 10
+            EvaactiveLife Gym and Fitness is fueled by a dynamic team of over 10
             exceptional individuals, each contributing their unique talents to
             drive our success. Our team is a harmonious blend of diverse
             talents, working tirelessly to guarantee an unmatched experience for

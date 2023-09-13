@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import heroimage from "../../assets/hero_gym.png";
+import heroimage from "../../../../assets/herobase.png";
 import { GoPlay } from "react-icons/go";
 
 const HeroSection = () => {
@@ -28,7 +28,7 @@ const HeroSection = () => {
             <Link to="/videos">Watch Video</Link>
           </a>
         </div>
-        <section className="flex items-center my-8 gap-6">
+        <section className="flex items-center lg:justify-start md:justify-center my-8 gap-6 sm-text-center md-text-center">
           <div className="flex flex-col ">
             <span className="text-3xl font-bold">10+</span>
             <span>Expert Trainers</span>
@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="w-[1px] h-10 bg-slate-100"></div>
           <div className="flex flex-col ">
             <span className="text-3xl font-bold">50+</span>
-            <span>Members Joined</span>
+            <span>Members Joined</span>pheader
           </div>
           <div className="w-[1px] h-10 bg-slate-100"></div>
           <div className="flex flex-col ">
@@ -47,12 +47,12 @@ const HeroSection = () => {
       </article>
       <div className="flex lg:col-span-5 col-span-12 justify-end items-center relative">
         <img src={heroimage} alt="Hero Image" className="w-full h-full z-30" />
-        <div className="absolute lg:w-20 lg:h-20 w-12 h-12 rounded-full bg-orange-400 top-0 right-8 animate-ping"></div>
-        <div className="absolute w-20 h-20 rounded-full  hidden bg-blue-200 -bottom-6 left-0 z-30 lg:flex justify-center items-center">
-          <p className="text-black text-sm font-bold animate-pulse">Stay Fit</p>
-        </div>
-        <div className="absolute w-96 h-96 rounded-full lg:block hidden bg-green-200 top-0 left-0 "></div>
-        <div className="absolute w-32 h-32 rounded-full lg:block hidden bg-purple-600 bottom-0 right-16 "></div>
+        <div className="absolute lg:w-12 lg:h-12 w-12 h-12 rounded-full bg-orange-400 top-0 right-8 animate-ping"></div>
+
+        <div className="absolute w-[3rem] h-[3rem] rounded-full lg:block hidden bg-green-200 bottom-2 animate-ping left-0 "></div>
+        {/* <div className="absolute w-[30rem] h-20 rounded-full  hidden bg-green-200 -bottom-16  z-30 lg:flex justify-center items-center">
+          <p className="text-white text-sm font-bold animate-pulse">Stay Fit</p>
+        </div> */}
       </div>
     </section>
   );

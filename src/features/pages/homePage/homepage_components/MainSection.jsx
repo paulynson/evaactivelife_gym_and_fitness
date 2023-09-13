@@ -1,11 +1,11 @@
 import React from "react";
 // import side from "../../assets/side.jpg";
-import gymTime from "../../assets/we.jpg";
+import gymTime from "../../../../assets/we.jpg";
 // import gym_one from "../../assets/gym_one.jpg";
 // import gym_two from "../../assets/gym_two.png";
-import gym_two_bg from "../../assets/gym_two_bg.png";
+import gym_two_bg from "../../../../assets/gym_two_bg.png";
 import mainSectionData from "./MainSectionData";
-import about_hero from "../../assets/about_hero.jpg";
+import about_hero from "../../../../assets/about_hero.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
@@ -34,14 +34,14 @@ const MainSection = () => {
             />
           </div>
           <p className="leading-8">
-            EvaActiveLife Gym and Fitness Nigeria, established in 2002, is more
+            EvaactiveLife Gym and Fitness Nigeria, established in 2002, is more
             than a fitness equipment retailer; we&apos;re your dedicated
             partners in embracing a healthier, more vibrant life.
           </p>
           <p className="leading-8">
             We provide top-quality equipment and unwavering support to empower
             you on your fitness journey. Join us in our mission to enhance lives
-            through fitness and wellness, because at EvaActiveLife, your health
+            through fitness and wellness, because at EvaactiveLife, your health
             is our passion.
           </p>
           <div className="my-6">

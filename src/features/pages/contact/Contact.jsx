@@ -9,7 +9,7 @@ const Contact = () => {
       {/* page Name */}
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Contact Us | EvaActiveLife Gym and Fitness</title>
+        <title>Contact Us | EvaactiveLife Gym and Fitness</title>
         <link
           rel="canonical"
           href="https://evaactivelifegym.netlify.app/contact"

@@ -60,7 +60,7 @@ const Membership = () => {
 
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Membership | EvaActiveLife Gym and Fitness</title>
+        <title>Membership | EvaactiveLife Gym and Fitness</title>
         <link
           rel="canonical"
           href="https://evaactivelifegym.netlify.app/membership"
@@ -76,7 +76,7 @@ const Membership = () => {
         </h3>
 
         <p className=" text-center text-gray-300 leading-8 lg:max-w-4xl w-auto">
-          At EvaActiveLife Gym and Fitness, we firmly believe that fitness and
+          At EvaactiveLife Gym and Fitness, we firmly believe that fitness and
           overall well-being are the cornerstone of a vibrant and fulfilling
           life. Established in 2002, our journey began as a family-owned
           business with a commitment to providing exceptional gym equipment at

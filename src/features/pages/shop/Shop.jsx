@@ -13,7 +13,7 @@ const Shop = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Shop | EvaActiveLife Gym and Fitness</title>
+        <title>Shop | EvaactiveLife Gym and Fitness</title>
         <link
           rel="canonical"
           href="https://evaactivelifegym.netlify.app/shop"
