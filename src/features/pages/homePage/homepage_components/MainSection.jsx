@@ -5,6 +5,7 @@ import gymTime from "../../../../assets/we.jpg";
 // import gym_two from "../../assets/gym_two.png";
 import gym_two_bg from "../../../../assets/gym_two_bg.png";
 import mainSectionData from "./MainSectionData";
+import GymSessionData from "./GymSessionData";
 import about_hero from "../../../../assets/about_hero.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -144,6 +145,24 @@ const MainSection = () => {
       </section>
       {/* Price Section */}
 
+      <section className="py-8 lg:pt-32">
+        <div className="text-center">
+          <h3 className="text-3xl  font-bold leading-normal">
+            Gym Session Pictures
+          </h3>
+        </div>
+        <div className="grid grid-cols-12 gap-4 py-12 justify-center items-center">
+          {GymSessionData.map((data) => (
+            <div
+              key={data.id}
+              className="lg:col-span-3 md:col-span-3 sm:col-span-4 col-span-6"
+            >
+              <img src={data.image} alt="gym session" />
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="lg:py-32 py-8">
         {" "}
         <div className="text-center">
@@ -267,34 +286,18 @@ const MainSection = () => {
                 <div>
                   <img src={about_hero} />
                   <p className="legend">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                    esse incidunt maxime dolor, eaque ratione autem quae.
-                    Perferendis aut excepturi quas deserunt autem magnam
-                    provident.
+                    Now, I can run longer and faster. Thanks Evaactivelife Gym.
                   </p>
                 </div>
                 <div>
                   <img src={about_hero} />
-                  <p className="legend">
-                    {" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                    esse incidunt maxime dolor, eaque ratione autem quae.
-                    Perferendis aut excepturi quas deserunt autem magnam
-                    provident.
-                  </p>
+                  <p className="legend"> Hi, I Love the Gym</p>
                 </div>
                 <div>
                   <img src={about_hero} />
                   <div className="legend">
                     {" "}
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum esse incidunt maxime dolor, eaque ratione autem quae.
-                    </p>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum esse incidunt maxime dolor, eaque ratione autem quae.
-                    </p>
+                    <p>The Gym made me stronger and healthier</p>
                   </div>
                 </div>
               </Carousel>

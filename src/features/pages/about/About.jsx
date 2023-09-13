@@ -3,7 +3,7 @@
 import about_hero from "../../../assets/about_hero.jpg";
 import instructor_one from "../../../assets/instructor_one.jpg";
 import instructor_two from "../../../assets/instructor_two.jpg";
-import instructor_three from "../../../assets/instructor_three.jpg";
+// import instructor_three from "../../../assets/instructor_three.jpg";
 import { Helmet } from "react-helmet";
 import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 const About = () => {
@@ -80,37 +80,27 @@ const About = () => {
           <div className="lg:col-span-4 px-4 border-2 border-green-400 py-4 rounded-lg md:col-span-6 sm:col-span-6 col-span-12">
             <img src={instructor_one} alt="" />
             <article>
-              <h4 className="my-3 text-xl font-bold">John</h4>
-              <p className="leading-loose">
+              <h4 className="my-3 text-xl font-bold text-center">John</h4>
+              {/* <p className="leading-loose text-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
                 mollitia veniam impedit tempora molestias, excepturi consectetur
                 tenetur qui numquam.
-              </p>
+              </p> */}
             </article>
           </div>
           <div className="lg:col-span-4 px-4 border-2 border-green-400 py-4 rounded-lg md:col-span-6 sm:col-span-6 col-span-12">
             <img src={instructor_two} alt="" />
-            <article>
-              <h4 className="my-3 text-xl font-bold">Tade</h4>
-              <p className="leading-loose">
+            <article className="tex-center">
+              <h4 className="my-3 text-xl font-bold text-center">
+                Instructor Two
+              </h4>
+              {/* <p className="leading-loose text-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
                 mollitia veniam impedit tempora molestias, excepturi consectetur
                 tenetur qui numquam.
-              </p>
-            </article>
-          </div>
-          <div className="lg:col-span-4 px-4 border-2 border-green-400 py-4 rounded-lg md:col-span-6 sm:col-span-6 col-span-12">
-            <img src={instructor_three} alt="" />
-            <article>
-              <h4 className="my-3 text-xl font-bold">Seun</h4>
-              <p className="leading-loose">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consequuntur, dolorem? Exercitationem dicta fuga illum soluta
-                mollitia veniam impedit tempora molestias, excepturi consectetur
-                tenetur qui numquam.
-              </p>
+              </p> */}
             </article>
           </div>
         </section>
