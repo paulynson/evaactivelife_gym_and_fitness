@@ -10,8 +10,8 @@ const HeroSection = () => {
           Attain a Fit Physique Through Optimal Exercise Routines
         </h1>
         <p className="py-6 lg:text-left text-center">
-          We are dedicated to assisting you in achieving a sound body and a
-          tranquil mind using the transformative influence of fitness.
+          We are dedicated to assisting you in achieving a sound body and a tranquil mind using the
+          transformative influence of fitness.
         </p>
         <div className="flex gap-4 lg:justify-start justify-center">
           <Link
@@ -24,11 +24,10 @@ const HeroSection = () => {
             href="#/"
             className="flex lg:justify-start justify-center items-center hover:text-green-400"
           >
-            <GoPlay className="text-3xl mr-2" />{" "}
-            <Link to="/videos">Watch Video</Link>
+            <GoPlay className="text-3xl mr-2" /> <Link to="/videos">Watch Video</Link>
           </a>
         </div>
-        <section className="flex items-center lg:justify-start md:justify-center my-8 gap-6 sm-text-center md-text-center">
+        <section className="flex items-center xl:justify-start lg:justify-start md:justify-center justify-center my-8 gap-6 sm-text-center md-text-center">
           <div className="flex flex-col ">
             <span className="text-3xl font-bold">10+</span>
             <span>Expert Trainers</span>
@@ -36,7 +35,7 @@ const HeroSection = () => {
           <div className="w-[1px] h-10 bg-slate-100"></div>
           <div className="flex flex-col ">
             <span className="text-3xl font-bold">50+</span>
-            <span>Members Joined</span>pheader
+            <span>Members Joined</span>
           </div>
           <div className="w-[1px] h-10 bg-slate-100"></div>
           <div className="flex flex-col ">
