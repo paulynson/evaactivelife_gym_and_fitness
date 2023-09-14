@@ -48,7 +48,7 @@ const HeroSection = () => {
         <img src={heroimage} alt="Hero Image" className="w-full h-full z-30" />
         <div className="absolute lg:w-12 lg:h-12 w-12 h-12 rounded-full bg-orange-400 top-0 right-8 animate-ping"></div>
 
-        <div className="absolute w-[3rem] h-[3rem] rounded-full lg:block hidden bg-green-200 bottom-2 animate-ping left-0 "></div>
+        <div className="absolute w-[3rem] h-[3rem] rounded-full lg:block bg-green-200 bottom-2 animate-ping left-0 "></div>
         {/* <div className="absolute w-[30rem] h-20 rounded-full  hidden bg-green-200 -bottom-16  z-30 lg:flex justify-center items-center">
           <p className="text-white text-sm font-bold animate-pulse">Stay Fit</p>
         </div> */}
