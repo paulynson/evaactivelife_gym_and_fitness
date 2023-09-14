@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./features/pages/homePage/HomePage";
@@ -14,6 +15,7 @@ import Videos from "./components/videos/Videos";
 function App() {
   return (
     <>
+      console.log('Husky working')
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
