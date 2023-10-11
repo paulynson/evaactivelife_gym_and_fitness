@@ -9,15 +9,8 @@ const Header = () => {
   return (
     <header className="py-8 ">
       <nav className="flex justify-between items-center bg-white px-4 rounded-lg">
-        <Link
-          to="/"
-          className=" font-bold hover:text-green-600 hover:scale-105"
-        >
-          <img
-            src={logo}
-            alt="Evaactivelife Gym Logo"
-            className="lg:w-28 w-20 py-3"
-          />
+        <Link to="/" className=" font-bold hover:text-green-600 hover:scale-105">
+          <img src={logo} alt="Evaactivelife Gym Logo" className="lg:w-28 w-20 py-3" />
         </Link>
         <section>
           <div className="lg:hidden block">
@@ -31,9 +24,7 @@ const Header = () => {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -42,9 +33,7 @@ const Header = () => {
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -53,9 +42,7 @@ const Header = () => {
               <NavLink
                 to="/program"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -64,9 +51,7 @@ const Header = () => {
               <NavLink
                 to="/membership"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -75,9 +60,7 @@ const Header = () => {
               <NavLink
                 to="/videos"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}
@@ -86,9 +69,7 @@ const Header = () => {
               <NavLink
                 to="/shop"
                 className={({ isActive }) =>
-                  isActive
-                    ? "text-green-500 font-bold"
-                    : "text-slate-800 hover:text-green-500"
+                  isActive ? "text-green-500 font-bold" : "text-slate-800 hover:text-green-500"
                 }
               >
                 {" "}

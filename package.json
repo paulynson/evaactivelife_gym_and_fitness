@@ -10,22 +10,7 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "**/*.+(js|ts|graphql|yml|yaml|vue)": [
-      "eslint --fix",
-      "prettier --write",
-      "git add"
-    ],
-    "*/*.+(css|sass|less|scss|json|html)": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+  
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^1.4.0",
@@ -60,5 +45,21 @@
     "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.+(js|ts|graphql|yml|yaml|vue)": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*/*.+(css|sass|less|scss|json|html)": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
