@@ -10,11 +10,8 @@ const video = () => {
     <section>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Videos | EvaactiveLife Gym and Fitness</title>
-        <link
-          rel="canonical"
-          href="https://evaactivelifegym.netlify.app/videos"
-        />
+        <title>Videos | Evaactivelife Gym and Fitness</title>
+        <link rel="canonical" href="https://evaactivelifegym.netlify.app/videos" />
       </Helmet>
       {/* Hero Section  */}
       {/* Hero Section */}
@@ -22,13 +19,11 @@ const video = () => {
 
       {/* Membership Details */}
       <article className="space-y-6 pt-16 text-[18px] text-center flex flex-col justify-center items-center">
-        <h3 className="text-3xl font-bold text-center">
-          Our Gym Vidoes Circle
-        </h3>
+        <h3 className="text-3xl font-bold text-center">Our Gym Vidoes Circle</h3>
 
         <p className=" text-center text-gray-300 leading-8 lg:max-w-4xl w-auto">
-          We firmly believe that fitness and overall well-being are the
-          cornerstone of a vibrant and fulfilling life.
+          We firmly believe that fitness and overall well-being are the cornerstone of a vibrant and
+          fulfilling life.
         </p>
       </article>
       {/* Content */}

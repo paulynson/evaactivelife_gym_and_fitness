@@ -7,7 +7,7 @@ const HomePage = () => {
     <main>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Home | EvaActiveLife Gym and Fitness</title>
+        <title>Home | Evaactivelife Gym and Fitness</title>
         <link rel="canonical" href="https://evaactivelifegym.netlify.app" />
       </Helmet>
       <HeroSection />

@@ -22,7 +22,7 @@ const Membership = () => {
         icon: "info",
         text: `Provide a valid Weight!`,
         showConfirmButton: false,
-        timer: 2500,
+        timer: 2500
       });
     } else if (height === "" || isNaN(height)) {
       // setResult("Provide a valid Weight!");
@@ -30,7 +30,7 @@ const Membership = () => {
         icon: "info",
         text: `Provide a valid Height!`,
         showConfirmButton: false,
-        timer: 2500,
+        timer: 2500
       });
     } else {
       const bmi = (weight / ((height * height) / 10000)).toFixed(2);
@@ -61,29 +61,30 @@ const Membership = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Membership | EvaactiveLife Gym and Fitness</title>
-        <link
-          rel="canonical"
-          href="https://evaactivelifegym.netlify.app/membership"
-        />
+        <link rel="canonical" href="https://evaactivelifegym.netlify.app/membership" />
       </Helmet>
       {/* Hero Section */}
       <PagesHeros src={membership_hero} title="Membership" alt="Gym" />
 
       {/* Membership Details */}
       <article className="space-y-6 py-16 text-[18px] text-center flex flex-col justify-center items-center">
-        <h3 className="text-3xl font-bold text-center">
-          Get the Membership Experience
-        </h3>
+        <h3 className="text-3xl font-bold text-center">Get the Membership Experience</h3>
 
         <p className=" text-center text-gray-300 leading-8 lg:max-w-4xl w-auto">
-          At EvaactiveLife Gym and Fitness, we firmly believe that fitness and
-          overall well-being are the cornerstone of a vibrant and fulfilling
-          life. Established in 2002, our journey began as a family-owned
-          business with a commitment to providing exceptional gym equipment at
-          affordable prices. However, our vision extended beyond being a mere
-          fitness equipment supplier; our goal was to lead the industry.
+          At EvaactiveLife Gym and Fitness, we firmly believe that fitness and overall well-being
+          are the cornerstone of a vibrant and fulfilling life. Established in 2002, our journey
+          began as a family-owned business with a commitment to providing exceptional gym equipment
+          at affordable prices. However, our vision extended beyond being a mere fitness equipment
+          supplier; our goal was to lead the industry.
         </p>
       </article>
+      {/* Contact Details  */}
+      <section className="text-center py-8 gap-4 bg-slate-100 w-full my-6 shadow-2xl rounded-lg">
+        <h3 className="text-3xl mb-4 text-black">Call for Membership Registration</h3>
+        <a href="tel:+234 708 533 9236" className="text-2xl text-green-500 font-bold">
+          +234 708 533 9236
+        </a>
+      </section>
 
       {/* BMI Calculation */}
       <section className="grid grid-cols-12 lg:gap-0 items-center justify-center  px-6 gap-4 mb-6">
@@ -97,8 +98,7 @@ const Membership = () => {
             alt="bmi chart"
           />
           <p className="my-3">
-            BMI is a reliable guide to estimate the healthy weight range based
-            on height and weight
+            BMI is a reliable guide to estimate the healthy weight range based on height and weight
           </p>
           <section className="border-2 border-green-400 px-4 py-4">
             <div className="mb-2">
@@ -136,11 +136,7 @@ const Membership = () => {
         </section>
         {/* Other section */}
         <div className="py-8 px-2 lg:col-span-6 md:col-span-6 sm:col-span-12 col-span-12 ">
-          <img
-            src={bmichart}
-            className="rounded-lg w-full lg:block hidden"
-            alt="bmi chart"
-          />
+          <img src={bmichart} className="rounded-lg w-full lg:block hidden" alt="bmi chart" />
         </div>
       </section>
 

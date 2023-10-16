@@ -8,17 +8,13 @@ const NotFound = () => {
     <section>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>404 | EvaActiveLife Gym and Fitness</title>
+        <title>404 | Evaactivelife Gym and Fitness</title>
         <link rel="canonical" href="" />
       </Helmet>
 
       <section className="bg-white py-16 px-4">
         <div className="flex  justify-center items-center ">
-          <img
-            src={notfound}
-            alt="Hero Image"
-            className="w-[600px] h-auto rounded-lg lg:block"
-          />
+          <img src={notfound} alt="Hero Image" className="w-[600px] h-auto rounded-lg lg:block" />
         </div>
         <div className="my-6 flex flex-col  justify-center items-center">
           <p className="lg:text-2xl text-xl my-6 text-slate-800 font-bold text-center">
