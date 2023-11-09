@@ -22,9 +22,15 @@ const MainSection = () => {
             src={gymTime}
             alt="Hero Image"
             className="w-full h-full rounded-lg lg:block hidden"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
           />
         </div>
-        <article className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1 lg:px-12 py-12 px-2 ">
+        <article
+          className="space-y-6 lg:col-span-6 col-span-12 lg:order-last order-1 lg:px-12 py-12 px-2 "
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <h3 className="text-3xl font-bold">
             Prepare yourself to achieve your fitness objectives.
           </h3>
@@ -32,12 +38,12 @@ const MainSection = () => {
             {" "}
             <img src={gymTime} alt="Hero Image" className="object-contain rounded-lg w-full" />
           </div>
-          <p className="leading-8">
+          <p className="leading-8" data-aos="fade-down" data-aos-duration="1000">
             EvaactiveLife Gym and Fitness Nigeria, established in 2002, is more than a fitness
             equipment retailer; we&apos;re your dedicated partners in embracing a healthier, more
             vibrant life.
           </p>
-          <p className="leading-8">
+          <p className="leading-8" data-aos="fade-down" data-aos-duration="1000">
             We provide top-quality equipment and unwavering support to empower you on your fitness
             journey. Join us in our mission to enhance lives through fitness and wellness, because
             at EvaactiveLife, your health is our passion.
@@ -54,12 +60,16 @@ const MainSection = () => {
       </section>
       {/* Program Section */}
       <section className="py-16">
-        <h3 className="text-3xl  font-bold">Our premier program on offer</h3>
+        <h3 className="text-3xl  font-bold" data-aos="zoom-in-left" data-aos-duration="1000">
+          Our premier program on offer
+        </h3>
         <div className="grid grid-cols-12 lg:gap-8 gap-4 my-8">
           {mainSectionData.map(({ title, text, id, avater }) => (
             <div
               className="xl:col-span-3 lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12 bg-slate-800 cursor-pointer hover:bg-green-600 rounded-lg py-8 px-4"
               key={id}
+              data-aos="flip-right"
+              data-aos-duration="1000"
             >
               {React.createElement(avater, { size: 50 })}
               <h4 className="text-2xl font-bold mb-3">{title}</h4>
@@ -72,7 +82,11 @@ const MainSection = () => {
       <section className="bg-slate-800 py-12 lg:px-8 px-4">
         <section className="grid grid-cols-12 lg:gap-16 gap-4 px-4 items-center">
           <div className="space-y-6 lg:col-span-6 col-span-12 lg:order-1 order-1">
-            <h3 className="text-3xl  font-bold leading-normal">
+            <h3
+              className="text-3xl  font-bold leading-normal"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               Why opt for Evaactivelife Gym and Fitness?
             </h3>
             <div className="lg:hidden block my-6">
@@ -81,6 +95,8 @@ const MainSection = () => {
                 src={gym_two_bg}
                 alt="Hero Image"
                 className=" rounded-lg object-contain w-full"
+                data-aos="flip-in"
+                data-aos-duration="1000"
               />
             </div>
             {/* Details  */}
@@ -89,7 +105,7 @@ const MainSection = () => {
                 <ol className="list-disc ml-5 mb-2">
                   <li className="text-green-400 text-lg font-bold">Personal Training </li>
                 </ol>
-                <p>
+                <p data-aos="fade-down" data-aos-duration="1000">
                   Our dedicated personal trainers can assist you in crafting a tailored fitness
                   regimen while monitoring your advancement.
                 </p>
@@ -98,7 +114,7 @@ const MainSection = () => {
                 <ol className="list-disc ml-5 mb-2">
                   <li className="text-green-400 text-lg font-bold">Expert Trainer </li>
                 </ol>
-                <p>
+                <p data-aos="fade-down" data-aos-duration="1000">
                   Our fitness center takes pride in providing a team of highly skilled and certified
                   trainers who will guide you towards accomplishing your health and fitness
                   objectives.
@@ -108,7 +124,7 @@ const MainSection = () => {
                 <ol className="list-disc ml-5 mb-2">
                   <li className="text-green-400 text-lg font-bold">Flexible Time </li>
                 </ol>
-                <p>
+                <p data-aos="fade-down" data-aos-duration="1000">
                   Numerous fitness classes are available during non-peak hours, including early
                   mornings and late evenings.
                 </p>
@@ -138,11 +154,26 @@ const MainSection = () => {
 
       <section className="py-8 lg:pt-32">
         <div className="text-center">
-          <h3 className="text-3xl  font-bold leading-normal">Gym Session Pictures</h3>
+          <h3
+            className="text-3xl  font-bold leading-normal"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            Gym Session Pictures
+          </h3>
         </div>
-        <div className="grid grid-cols-12 gap-4 py-12 justify-center items-center">
+        <div
+          className="grid grid-cols-12 gap-4 py-12 justify-center items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           {GymSessionData.map((data) => (
-            <div key={data.id} className="lg:col-span-3 md:col-span-3 sm:col-span-4 col-span-6">
+            <div
+              key={data.id}
+              className="lg:col-span-3 md:col-span-3 sm:col-span-4 col-span-6"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            >
               <img src={data.image} alt="gym session" />
             </div>
           ))}
@@ -152,11 +183,23 @@ const MainSection = () => {
       <section className="lg:py-32 py-8">
         {" "}
         <div className="text-center">
-          <h3 className="text-3xl  font-bold leading-normal">Select The Optimal Plan</h3>
-          <p className="py-2">Select from the best plans we offer</p>
+          <h3
+            className="text-3xl  font-bold leading-normal"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Select The Optimal Plan
+          </h3>
+          <p className="py-2" data-aos="fade-down" data-aos-duration="1000">
+            Select from the best plans we offer
+          </p>
         </div>
         <div className="grid grid-cols-12 gap-4 py-12 justify-center items-center">
-          <div className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 ">
+          <div
+            className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 "
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
             <h4 className="text-sm uppercase text-center py-3 font-bold italic lg:text-lg">
               Bronze
             </h4>
@@ -177,7 +220,11 @@ const MainSection = () => {
               </div>
             </div>
           </div>
-          <div className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 ">
+          <div
+            className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 "
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
             <h4 className="text-sm uppercase text-center py-3 font-bold italic lg:text-lg">
               Silver
             </h4>
@@ -198,7 +245,11 @@ const MainSection = () => {
               </div>
             </div>
           </div>
-          <div className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 ">
+          <div
+            className="xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-6 col-span-12 rounded-xl bg-slate-800 text-slate-200 shadow-lg  hover:bg-green-600 group px-8  py-6 "
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
             <h4 className="text-sm uppercase text-center py-3 font-bold italic lg:text-lg">Gold</h4>
             <div>
               {/* <div className="py-4">
@@ -244,11 +295,17 @@ const MainSection = () => {
         <div className=" grid grid-cols-12 items-center gap-4">
           {/* left */}
           <div className="lg:col-span-6 md:col-span-5 col-span-12">
-            <h3 className="text-3xl  font-bold leading-normal ">
+            <h3
+              className="text-3xl  font-bold leading-normal "
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               What our satisfied clients have to share about their experience with us
             </h3>
             <div className="py-3">
-              <p>We believe we are here to serve you!</p>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                We believe we are here to serve you!
+              </p>
             </div>
           </div>
           {/* right */}

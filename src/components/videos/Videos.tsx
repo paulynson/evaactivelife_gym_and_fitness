@@ -1,10 +1,15 @@
 /* eslint-disable no-unused-vars */
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import allVideos from "./allVideos";
 import PagesHeros from "../pagesHeros/PagesHeros";
 import hcr from "./vids/hcr.gif";
 
 const video = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <section>
       <Helmet>

@@ -6,14 +6,22 @@ const HeroSection = () => {
   return (
     <section className="lg:py-24 py-8 grid grid-cols-12 gap-8 items-center ">
       <article className="lg:col-span-7 col-span-12 lg:text-left text-center lg:max-w-2xl w-auto">
-        <h1 className="lg:text-5xl text-[2.5rem] font-bold leading-normal">
+        <h1
+          className="lg:text-5xl text-[2.5rem] font-bold leading-normal"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           Attain a Fit Physique Through Optimal Exercise Routines
         </h1>
-        <p className="py-6 lg:text-left text-center">
+        <p className="py-6 lg:text-left text-center" data-aos="fade-up" data-aos-duration="1000">
           We are dedicated to assisting you in achieving a sound body and a tranquil mind using the
           transformative influence of fitness.
         </p>
-        <div className="flex gap-4 lg:justify-start justify-center">
+        <div
+          className="flex gap-4 lg:justify-start justify-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <Link
             to="/membership"
             className="py-3 px-6 bg-green-400 text-white hover:bg-green-600 rounded-full "
@@ -27,7 +35,11 @@ const HeroSection = () => {
             <GoPlay className="text-3xl mr-2" /> <Link to="/videos">Watch Video</Link>
           </a>
         </div>
-        <section className="flex items-center xl:justify-start lg:justify-start md:justify-center justify-center my-8 gap-6 sm-text-center md-text-center">
+        <section
+          className="flex items-center xl:justify-start lg:justify-start md:justify-center justify-center my-8 gap-6 sm-text-center md-text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="flex flex-col ">
             <span className="text-3xl font-bold">10+</span>
             <span>Expert Trainers</span>

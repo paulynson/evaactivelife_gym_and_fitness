@@ -10,8 +10,15 @@ import Membership from "./features/pages/membership/Membership";
 import Contact from "./features/pages/contact/Contact";
 import NotFound from "./features/pages/notfound/NotFound";
 import Videos from "./components/videos/Videos";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Header />
