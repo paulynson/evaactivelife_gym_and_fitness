@@ -4,7 +4,7 @@ import HomePage from "./features/pages/homePage/HomePage";
 import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 import About from "./features/pages/about/About";
-import Program from "./features/pages/program/Program";
+import Program from "./features/pages/program/Program.tsx";
 import Shop from "./features/pages/shop/Shop";
 import Membership from "./features/pages/membership/Membership";
 import Contact from "./features/pages/contact/Contact";

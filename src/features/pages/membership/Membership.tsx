@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import React from "react";
 import { useState } from "react";
 import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
@@ -8,24 +7,22 @@ import bmichart from "../../../assets/bmi_transparent.png";
 import { Helmet } from "react-helmet";
 import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 
-// import MembershipForm from "../../../components/MembershipForm/MembershipForm";
+interface MembershipProps {}
 
-const Membership = () => {
-  const [weight, setWeight] = useState("");
-  const [height, setHeight] = useState("");
-  const [result, setResult] = useState("");
+const Membership: React.FC<MembershipProps> = () => {
+  const [weight, setWeight] = useState<string>("");
+  const [height, setHeight] = useState<string>("");
+  const [result, setResult] = useState<string>("");
 
   const calculateBMI = () => {
-    if (weight === "" || isNaN(weight)) {
-      // setResult("Provide a valid Height!");
+    if (weight === "" || isNaN(Number(weight))) {
       Swal.fire({
         icon: "info",
         text: `Provide a valid Weight!`,
         showConfirmButton: false,
         timer: 2500
       });
-    } else if (height === "" || isNaN(height)) {
-      // setResult("Provide a valid Weight!");
+    } else if (height === "" || isNaN(Number(height))) {
       Swal.fire({
         icon: "info",
         text: `Provide a valid Height!`,
@@ -33,31 +30,27 @@ const Membership = () => {
         timer: 2500
       });
     } else {
-      const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+      const bmi = (Number(weight) / ((Number(height) * Number(height)) / 10000)).toFixed(2);
 
-      if (bmi < 18.6) {
-        setResult(` Your Body Mass Index (BMI) is: ${bmi}.
-                 Your BMI indicates that you are Under Weight`);
-      } else if (bmi >= 18.6 && bmi < 24.9) {
+      if (Number(bmi) < 18.6) {
         setResult(
-          `
-          Your Body Mass Index (BMI) is: ${bmi}.
-          Your BMI indicates that you are Normal. Congratulations for maintaining a healthy weight!`
+          ` Your Body Mass Index (BMI) is: ${bmi}. Your BMI indicates that you are Under Weight`
+        );
+      } else if (Number(bmi) >= 18.6 && Number(bmi) < 24.9) {
+        setResult(
+          `Your Body Mass Index (BMI) is: ${bmi}. Your BMI indicates that you are Normal. Congratulations for maintaining a healthy weight!`
         );
       } else {
         setResult(
-          `Your Body Mass Index (BMI) is: ${bmi}.
-          Your BMI indicates that you are Overweight and this puts you at an Extremely High risk for type 2 diabetes, hypertension, coronary heart disease, stroke, sleep apnea and certain types of cancer.
-           
-          `
+          `Your Body Mass Index (BMI) is: ${bmi}. Your BMI indicates that you are Overweight and this puts you at an Extremely High risk for type 2 diabetes, hypertension, coronary heart disease, stroke, sleep apnea and certain types of cancer.`
         );
       }
     }
   };
+
   return (
     <section>
       {/* Page Title */}
-
       <Helmet>
         <meta charSet="utf-8" />
         <title>Membership | EvaactiveLife Gym and Fitness</title>
