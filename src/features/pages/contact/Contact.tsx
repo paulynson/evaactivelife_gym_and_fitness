@@ -1,9 +1,13 @@
-// import React from "react";
+import { useEffect } from "react";
 import contact_hero from "../../../assets/contact_hero.jpg";
 
 import { Helmet } from "react-helmet";
 
 const Contact = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <section>
       {/* page Name */}

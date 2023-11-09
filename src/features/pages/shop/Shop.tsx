@@ -1,4 +1,6 @@
 // import React from 'react'
+import { useEffect } from "react";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import shop_hero_one from "../../../assets/shop_hero_one.jpg";
@@ -9,15 +11,16 @@ import ShopProductsPage from "./ShopProductsPage";
 import { Helmet } from "react-helmet";
 
 const Shop = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Shop | EvaactiveLife Gym and Fitness</title>
-        <link
-          rel="canonical"
-          href="https://evaactivelifegym.netlify.app/shop"
-        />
+        <link rel="canonical" href="https://evaactivelifegym.netlify.app/shop" />
       </Helmet>
       {/* <section className="flex flex-col items-center justify-center relative ">
         <h1 className="lg:text-6xl text-4xl font-bold text-green-600 mb-4 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">

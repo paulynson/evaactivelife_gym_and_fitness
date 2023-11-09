@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import membership_hero from "../../../assets/membership_hero.jpg";
 import Swal from "sweetalert2";
 import bmichart from "../../../assets/bmi_transparent.png";
@@ -10,6 +10,11 @@ import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 interface MembershipProps {}
 
 const Membership: React.FC<MembershipProps> = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   const [weight, setWeight] = useState<string>("");
   const [height, setHeight] = useState<string>("");
   const [result, setResult] = useState<string>("");

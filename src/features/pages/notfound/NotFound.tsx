@@ -1,9 +1,15 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 import notfound from "../../../assets/404.png";
 import { Helmet } from "react-helmet";
 
 const NotFound = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <section>
       <Helmet>

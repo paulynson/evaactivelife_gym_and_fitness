@@ -1,8 +1,14 @@
+import { useEffect } from "react";
+
 import HeroSection from "./homepage_components/Hero";
 import MainSection from "./homepage_components/MainSection";
 import { Helmet } from "react-helmet";
 
 const HomePage = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <main>
       <Helmet>

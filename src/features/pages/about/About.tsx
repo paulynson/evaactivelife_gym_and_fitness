@@ -1,5 +1,7 @@
 // import React from "react";
 // import side from "../../../assets/side.jpg";
+import { useEffect } from "react";
+
 import about_hero from "../../../assets/about_hero.jpg";
 import instructor_one from "../../../assets/instructor_one.jpg";
 import instructor_two from "../../../assets/instructor_two.jpg";
@@ -7,6 +9,10 @@ import instructor_two from "../../../assets/instructor_two.jpg";
 import { Helmet } from "react-helmet";
 import PagesHeros from "../../../components/pagesHeros/PagesHeros";
 const About = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <section>
       <Helmet>
