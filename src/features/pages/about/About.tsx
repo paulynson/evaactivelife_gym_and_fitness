@@ -48,7 +48,7 @@ const About = () => {
           data-aos-duration="1000"
         >
           Two decades later, we proudly stand as one of Nigeria&apos;s premier online retailers of
-          fitness equipment under the banner of EvaActiveLife Gym and Fitness Nigeria. Our focus has
+          fitness equipment under the banner of Evaactivelife Gym and Fitness Nigeria. Our focus has
           grown beyond equipment provision – we&apos;ve emerged as proponents of fitness, holistic
           well-being, and life enrichment.
         </p>
@@ -77,8 +77,8 @@ const About = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          At EvaActive Life Gym & Fitness, we are dedicated to helping you achieve your fitness
-          goals through personalized training programs, state-of-the-art equipment, and a supportive
+          At Evaactivelife Gym & Fitness, we are dedicated to helping you achieve your fitness goals
+          through personalized training programs, state-of-the-art equipment, and a supportive
           community.
         </p>
 
@@ -147,7 +147,7 @@ const About = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            At EvaactiveLife Gym and Fitness, our commitment extends to giving back. We allocate
+            At Evaactivelife Gym and Fitness, our commitment extends to giving back. We allocate
             time, resources, and products to volunteer services and community organizations. Our
             dedication to enhancing individuals&apos; health, fitness, and well-being is manifested
             through our support of global and local charities, local sports teams, and events.
@@ -175,7 +175,7 @@ const About = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            EvaactiveLife Gym and Fitness is fueled by a dynamic team of over 10 exceptional
+            Evaactivelife Gym and Fitness is fueled by a dynamic team of over 10 exceptional
             individuals, each contributing their unique talents to drive our success. Our team is a
             harmonious blend of diverse talents, working tirelessly to guarantee an unmatched
             experience for you. They form the essential cogs in our operations - spanning sales,
